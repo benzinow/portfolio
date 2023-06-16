@@ -171,3 +171,299 @@ a {
   grid-column-end: 58;
   margin: -1150px;
 }
+
+@media (max-width: 1200px) {
+  .portfolio {
+    width: 900px;
+    height: 3000px;
+  }
+
+  .hh3 {
+    font-size: 120px;
+  }
+
+  .project-header {
+    grid-column-end: 45;
+  }
+
+  .project-link {
+    font-size: 30px;
+    grid-row-start: 13;
+  }
+
+  .desktop-box {
+    width: 445px;
+    grid-column-start: 2;
+    grid-row-start: 12;
+  }
+
+  .text-block-1 {
+    grid-column-start: 26;
+    grid-row-start: 17;
+    grid-column-end: 44;
+  }
+
+  .hh4 {
+    font-size: 30px;
+  }
+
+  .text-block-2 {
+    grid-column-start: 3;
+    grid-row-start: 36;
+    grid-column-end: 44;
+  }
+
+  .text-block-3 {
+    grid-column-start: 3;
+    grid-row-start: 51;
+    grid-column-end: 30;
+  }
+
+  .tablet-box {
+    width: 350px;
+    grid-column-start: 28;
+    grid-row-start: 48;
+    z-index: 1;
+  }
+
+  .ipad {
+    width: 100%;
+  }
+
+  .text-block-4 {
+    grid-column-start: 3;
+
+    grid-column-end: 44;
+  }
+
+  .tool-belt {
+    width: 800px;
+
+    grid-column-start: 3;
+    grid-row-start: 80;
+    grid-column-end: 44;
+    z-index: 1;
+  }
+
+  .tool-icon {
+    height: 70px;
+  }
+
+  .phone-box {
+    grid-row-start: 109;
+  }
+
+  .text-block-6 {
+    grid-row-start: 109;
+    grid-column-end: 44;
+  }
+
+  .text-block-7 {
+    grid-column-start: 3;
+    grid-row-start: 138;
+    grid-column-end: 44;
+  }
+}
+@media (max-width: 900px) {
+  .hh3 {
+    font-size: 80px;
+  }
+
+  .portfolio-text {
+    line-height: 30px;
+  }
+
+  .portfolio {
+    width: 600px;
+    height: 3700px;
+  }
+
+  .project-header {
+    grid-column-end: 30;
+  }
+
+  .project-link {
+    font-size: 20px;
+    grid-row-start: 10;
+    grid-column-end: 30;
+    grid-column-start: 1;
+  }
+
+  .desktop-box {
+    grid-column-start: 5;
+    grid-row-start: 13;
+  }
+
+  .text-block-1 {
+    grid-column-start: 2;
+
+    grid-column-end: 30;
+    grid-row-start: 33;
+  }
+
+  .hh4 {
+    font-size: 25px;
+  }
+
+  .text-block-2 {
+    grid-column-start: 2;
+
+    grid-column-end: 30;
+    grid-row-start: 41;
+  }
+
+  .text-block-3 {
+    grid-column-start: 2;
+
+    grid-column-end: 30;
+    grid-row-start: 54;
+  }
+
+  .tablet-box {
+    grid-column-start: 7;
+    grid-row-start: 68;
+  }
+
+  .text-block-4 {
+    grid-column-start: 2;
+
+    grid-column-end: 30;
+    grid-row-start: 93;
+  }
+
+  .tool-belt {
+    width: 500px;
+
+    grid-column-start: 2;
+    grid-row-start: 102;
+    grid-column-end: 29;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 1;
+  }
+
+  .tool-icon {
+    height: 70px;
+  }
+
+  .phone-box {
+    grid-row-start: 133;
+    grid-column-start: 9;
+  }
+
+  .text-block-5 {
+    grid-column-start: 2;
+    grid-row-start: 117;
+    grid-column-end: 30;
+  }
+
+  .text-block-6 {
+    grid-row-start: 160;
+    grid-column-start: 2;
+    grid-column-end: 30;
+  }
+
+  .text-block-7 {
+    grid-column-start: 2;
+    grid-column-end: 30;
+    grid-row-start: 177;
+  }
+}
+@media (max-width: 600px) {
+  .hh3 {
+    font-size: 40px;
+  }
+
+  .portfolio {
+    width: 300px;
+    height: 4450px;
+  }
+
+  .project-header {
+    grid-column-end: 15;
+    grid-column-start: 2;
+    grid-row-start: 3;
+  }
+
+  .project-link {
+    font-size: 16px;
+    grid-row-start: 6;
+    grid-column-end: 15;
+    grid-column-start: 2;
+  }
+
+  .desktop-box {
+    grid-column-start: 2;
+    grid-row-start: 8;
+    width: 260px;
+  }
+
+  .text-block-1 {
+    grid-column-start: 2;
+    grid-column-end: 15;
+    grid-row-start: 20;
+  }
+
+  .hh4 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .text-block-2 {
+    grid-column-end: 15;
+    grid-row-start: 33;
+  }
+
+  .text-block-3 {
+    grid-column-end: 15;
+    grid-row-start: 53;
+  }
+
+  .tablet-box {
+    grid-row-start: 73;
+    width: 260px;
+    grid-column-start: 2;
+  }
+
+  .text-block-4 {
+    grid-column-end: 15;
+    grid-row-start: 93;
+  }
+
+  .tool-belt {
+    width: 260px;
+
+    grid-column-start: 2;
+    grid-row-start: 106;
+    grid-column-end: 15;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 1;
+  }
+
+  .tool-icon {
+    height: 70px;
+  }
+
+  .phone-box {
+    grid-row-start: 156;
+    grid-column-start: 2;
+    width: 260px;
+  }
+
+  .text-block-5 {
+    grid-row-start: 133;
+    grid-column-end: 15;
+  }
+
+  .text-block-6 {
+    grid-row-start: 180;
+
+    grid-column-end: 15;
+  }
+
+  .text-block-7 {
+    grid-column-end: 15;
+    grid-row-start: 209;
+  }
+}

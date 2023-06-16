@@ -9,3 +9,19 @@
   font-family: "Kodchasan";
   font-size: 15px;
 }
+
+@media (max-width: 1200px) {
+  .footer {
+    width: 900px;
+  }
+}
+@media (max-width: 900px) {
+  .footer {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    width: 300px;
+  }
+}

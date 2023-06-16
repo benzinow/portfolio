@@ -139,7 +139,7 @@ function Portfolio() {
             className="tool-icon"
             alt="universal Google Sheets icon"
           />
-          <p className="caption">API Spreadsheets</p>
+          <p className="caption">API SS</p>
         </div>
       </div>
       <div className="portfolio-text-block text-block-5">

@@ -125,3 +125,217 @@
   filter: drop-shadow(0px 4px 4px rgba(255, 33, 58, 0.75));
   transition: 0.3s;
 }
+
+.button-symbol {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .header {
+    width: 900px;
+  }
+
+  .hh1 {
+    font-size: 100px;
+  }
+
+  .developer {
+    grid-column-start: 24;
+  }
+
+  .purple-benzi {
+    grid-column-start: 4;
+  }
+
+  .orange-benzi {
+    grid-column-start: 8;
+  }
+
+  .polygon-2 {
+    width: 300px;
+    height: 300px;
+    grid-row-start: 10;
+    grid-column-start: 3;
+  }
+
+  .hh2 {
+    font-size: 30px;
+  }
+
+  .tagline {
+    grid-column-start: 33;
+    grid-column-end: 44;
+    grid-row-start: 12;
+  }
+
+  .contact-button {
+    grid-column-start: 35;
+    z-index: 4;
+  }
+
+  .button-text {
+    font-size: 20px;
+
+    padding: 20px;
+    border-radius: 100px;
+
+    width: 200px;
+  }
+
+  .polygon-1 {
+    width: 1100px;
+    height: 1800px;
+    background-image: url(../images/purple-poly.png);
+    grid-row-start: 1;
+    grid-column-start: 7;
+    margin-top: -400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    width: 600px;
+    height: 550px;
+  }
+
+  .hh1 {
+    font-size: 80px;
+  }
+
+  .left-cut {
+    margin-left: -160px;
+    padding: 40px 40px 0 180px;
+  }
+
+  .right-cut {
+    margin-right: -150px;
+    padding: 40px 180px 0 45px;
+  }
+
+  .developer {
+    grid-column-start: 15;
+    grid-row-start: 20;
+  }
+
+  .purple-benzi {
+    grid-column-start: 5;
+    height: 500px;
+  }
+
+  .orange-benzi {
+    grid-column-start: 7;
+    height: 500px;
+  }
+
+  .polygon-2 {
+    width: 200px;
+    height: 200px;
+    grid-row-start: 9;
+    grid-column-start: 4;
+  }
+
+  .hh2 {
+    font-size: 20px;
+  }
+
+  .tagline {
+    grid-column-start: 22;
+    grid-column-end: 29;
+    grid-row-start: 10;
+  }
+
+  .contact-button {
+    grid-column-start: 20;
+    z-index: 4;
+  }
+
+  .polygon-1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin-top: -450px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    width: 300px;
+    height: 450px;
+  }
+
+  .hh1 {
+    font-size: 40px;
+  }
+
+  .left-cut {
+    margin-left: -160px;
+    padding: 20px 30px 0 175px;
+  }
+
+  .right-cut {
+    margin-right: -150px;
+    padding: 20px 180px 0 35px;
+  }
+
+  .developer {
+    grid-column-start: 7;
+    grid-row-start: 19;
+  }
+
+  .artist {
+    grid-row-start: 7;
+    z-index: 4;
+  }
+
+  .purple-benzi {
+    grid-column-start: 1;
+    height: 350px;
+    grid-row-start: 7;
+  }
+
+  .orange-benzi {
+    grid-column-start: 2;
+    height: 350px;
+    grid-row-start: 7;
+  }
+
+  .polygon-2 {
+    width: 100px;
+    height: 100px;
+    grid-row-start: 11;
+    grid-column-start: 1;
+  }
+
+  .hh2 {
+    font-size: 16px;
+  }
+
+  .tagline {
+    grid-column-start: 10;
+    grid-column-end: 15;
+    grid-row-start: 2;
+  }
+
+  .contact-button {
+    grid-column-start: 1;
+    grid-row-start: 21;
+    z-index: 4;
+  }
+
+  .button-text {
+    display: inline;
+    padding: 8px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    filter: drop-shadow(0px 10px 4px rgba(255, 33, 58, 0.75));
+    z-index: 3;
+    background-color: #fff;
+    font-size: 8px;
+    border: none;
+  }
+
+  .polygon-1 {
+    margin-left: -250px;
+    width: 550px;
+    height: 900px;
+  }
+}
