@@ -15,7 +15,6 @@
   grid-row-start: 5;
   grid-column-start: 1;
   grid-column-end: 60;
-  margin-bottom: 20px;
 }
 
 form {
@@ -27,6 +26,7 @@ form {
   font-size: 30px;
   line-height: 39px;
   text-align: left;
+  margin-top: 20px;
 }
 
 .form-item {
