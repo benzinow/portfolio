@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll"; // Import ScrollLink from the react-scroll library
 
 import PurpleBenzi from "../images/purple-benzi.png";
 import OrangeBenzi from "../images/orange-benzi.png";
@@ -32,7 +33,14 @@ function Header() {
         Translating Your Vision into a Digital Reality
       </div>
       <div className="contact-button">
-        <button className="button-text">Contact Benzi</button>
+        {/* Use ScrollLink for scrolling functionality */}
+        <ScrollLink
+          to="contact" // Target the contact section using the id
+          smooth={true} // Enable smooth scrolling
+          duration={500} // Set the scrolling duration
+        >
+          <button className="button-text">Contact Benzi</button>
+        </ScrollLink>
       </div>
       <Scroll />
     </div>

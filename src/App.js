@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Bio />
       <Portfolio />
-      <Contact />
+      <Contact id="contact" /> {/* Add the id attribute */}
       <Footer />
     </div>
   );
