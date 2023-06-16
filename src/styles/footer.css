@@ -1,0 +1,11 @@
+.footer {
+  background-color: #9f94ee;
+  width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kodchasan";
+  font-size: 15px;
+}

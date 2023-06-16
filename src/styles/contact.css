@@ -1,0 +1,127 @@
+.contact {
+  background-color: #202555;
+  color: #fff;
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+  grid-auto-columns: 20px;
+  grid-auto-rows: 20px;
+}
+
+.hh5 {
+  font-family: "Katibeh";
+  font-size: 180px;
+  z-index: 1;
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-column-end: 60;
+}
+
+form {
+  z-index: 1;
+  grid-row-start: 13;
+  grid-column-start: 15;
+  grid-column-end: 45;
+  font-family: "Kodchasan";
+  font-size: 30px;
+  line-height: 39px;
+  text-align: left;
+}
+
+.form-item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-item-hopes {
+  flex-direction: column;
+}
+
+input {
+  border-radius: 50px;
+  border: none;
+  filter: drop-shadow(4px 4px 0 rgba(255, 33, 58, 1));
+  font-family: "Kodchasan";
+  font-size: 20px;
+  height: 40px;
+  width: 100%;
+}
+
+.fixed-label-size {
+  width: 150px;
+}
+
+textarea {
+  border-radius: 20px;
+  border: none;
+  filter: drop-shadow(4px 4px 0 rgba(255, 33, 58, 1));
+  height: 100px;
+  width: 100%;
+  font-family: "Kodchasan";
+  font-size: 20px;
+}
+
+.contact-select {
+  border-radius: 50px;
+  border: none;
+  filter: drop-shadow(4px 4px 0 rgba(255, 33, 58, 1));
+  height: 40px;
+  font-family: "Kodchasan";
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  z-index: 1;
+  margin-left: 415px;
+}
+
+.submit-button-text {
+  font-family: "Kodchasan", sans-serif;
+  font-size: 30px;
+  color: #262c65;
+  text-shadow: 0px 4px 4px rgba(38, 44, 101, 0.25);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 100px;
+  border: none;
+  filter: drop-shadow(0px 10px 4px rgba(255, 33, 58, 0.75));
+  z-index: 3;
+  font-weight: 700;
+  width: 200px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.submit-button-text:hover {
+  color: #fff;
+  background-color: rgba(255, 69, 60, 1);
+  filter: drop-shadow(0px 4px 4px rgba(255, 33, 58, 0.75));
+  transition: 0.3s;
+}
+
+.thank-you {
+  background-color: #202555;
+  color: #fff;
+  z-index: 4;
+  grid-row-start: 12;
+  grid-row-end: 45;
+  grid-column-start: 14;
+  grid-column-end: 46;
+  border-radius: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you-image {
+  height: 300px;
+  width: 300px;
+  z-index: 5;
+  border-radius: 50%;
+}

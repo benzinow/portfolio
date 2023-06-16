@@ -1,0 +1,45 @@
+.bio {
+  background-image: url(../images/desert-vaporwave.png);
+  background-size: cover;
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  background-color: #9f94ee;
+  display: grid;
+  grid-auto-columns: 20px;
+  color: #262c65;
+  grid-auto-rows: 20px;
+}
+
+.bio-header {
+  grid-column-start: 1;
+  grid-column-end: 60;
+  grid-row-start: 5;
+}
+
+.bio-text-1 {
+  grid-column-start: 3;
+  grid-column-end: 29;
+  grid-row-start: 13;
+}
+
+.bio-text-2 {
+  grid-column-start: 3;
+  grid-column-end: 29;
+  grid-row-start: 27;
+}
+.bio-text-3 {
+  grid-column-start: 31;
+  grid-column-end: 58;
+  grid-row-start: 13;
+}
+.bio-text-4 {
+  grid-column-start: 31;
+  grid-column-end: 58;
+  grid-row-start: 27;
+}
+.bio-text-5 {
+  grid-column-start: 31;
+  grid-column-end: 58;
+  grid-row-start: 37;
+}

@@ -1,0 +1,78 @@
+.scroll-container {
+  border-radius: 5px;
+  overflow: hidden;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-column-end: 40;
+  grid-row-end: 44;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: rgba(38, 44, 101, 0.5);
+  z-index: 0;
+  font-size: 15px;
+}
+
+.scroll-container-contact {
+  overflow: hidden;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: rgba(255, 19, 205, 0.25);
+  z-index: 0;
+  font-size: 15px;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-column-end: 60;
+  grid-row-end: 44;
+}
+.scroll-text {
+  height: 100%;
+
+  /* animation properties */
+  -moz-animation: my-animation 10s linear infinite;
+  -webkit-animation: my-animation 10s linear infinite;
+  animation: my-animation 10s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  0% {
+    -moz-transform: translateY(0); /* Modified: Start from the top */
+  }
+  100% {
+    -moz-transform: translateY(-100%); /* Modified: Scroll up */
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  0% {
+    -webkit-transform: translateY(0); /* Modified: Start from the top */
+  }
+  100% {
+    -webkit-transform: translateY(-100%); /* Modified: Scroll up */
+  }
+}
+
+@keyframes my-animation {
+  0% {
+    -moz-transform: translateY(0); /* Modified: Start from the top */
+    -webkit-transform: translateY(0); /* Modified: Start from the top */
+    transform: translateY(0); /* Modified: Start from the top */
+  }
+  100% {
+    -moz-transform: translateY(-100%); /* Modified: Scroll up */
+    -webkit-transform: translateY(-100%); /* Modified: Scroll up */
+    transform: translateY(-100%); /* Modified: Scroll up */
+  }
+}
+
+pre {
+  margin-bottom: 20px;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}

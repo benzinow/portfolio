@@ -1,0 +1,173 @@
+.portfolio {
+  background-color: #d6c2e8;
+  width: 1200px;
+  height: 3000px;
+  margin: 0 auto;
+  color: #262c65;
+  display: grid;
+  grid-auto-columns: 20px;
+  grid-auto-rows: 20px;
+  overflow: hidden;
+}
+
+.hh3 {
+  font-family: "Katibeh";
+  text-align: center;
+  font-size: 180px;
+}
+
+.project-header {
+  grid-column-start: 1;
+  grid-column-end: 60;
+  grid-row-start: 5;
+}
+
+.project-link {
+  font-family: "Kodchasan";
+  font-size: 40px;
+  cursor: pointer;
+  grid-column-start: 20;
+  grid-row-start: 15;
+}
+
+a {
+  color: #262c65;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  filter: drop-shadow(0px 4px 1px rgba(255, 69, 60, 0.75));
+}
+
+.desktop-box {
+  width: 445px;
+  grid-column-start: 2;
+  grid-row-start: 15;
+}
+
+.g3 {
+  width: 100%;
+}
+
+.caption {
+  width: 100%;
+  text-align: center;
+  font-family: "Kodchasan";
+  font-size: 13px;
+}
+
+.portfolio-text {
+  font-family: "Kodchasan";
+  font-size: 16px;
+  text-align: left;
+  line-height: 40px;
+  text-indent: 30px;
+}
+
+.text-block-1 {
+  grid-column-start: 28;
+  grid-row-start: 20;
+  grid-column-end: 59;
+}
+
+.portfolio-text-block {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.hh4 {
+  font-family: "Kodchasan";
+  line-height: 60px;
+  font-size: 40px;
+}
+
+.text-block-2 {
+  grid-column-start: 4;
+  grid-row-start: 35;
+  grid-column-end: 58;
+}
+
+.text-block-3 {
+  grid-column-start: 4;
+  grid-row-start: 50;
+  grid-column-end: 36;
+}
+
+.tablet-box {
+  width: 350px;
+  grid-column-start: 39;
+  grid-row-start: 48;
+  z-index: 1;
+}
+
+.ipad {
+  width: 100%;
+}
+
+.text-block-4 {
+  grid-column-start: 4;
+  grid-row-start: 71;
+  grid-column-end: 58;
+  z-index: 1;
+}
+
+.tool-belt {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  margin: 0 auto;
+  grid-column-start: 3;
+  grid-row-start: 84;
+  grid-column-end: 58;
+  z-index: 1;
+}
+
+.tool-icon {
+  height: 80px;
+  width: auto;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.text-block-5 {
+  grid-column-start: 4;
+  grid-row-start: 93;
+  grid-column-end: 58;
+  z-index: 1;
+}
+
+.phone-box {
+  grid-column-start: 2;
+  grid-row-start: 108;
+  width: 300px;
+  z-index: 1;
+}
+
+.phone {
+  width: 100%;
+}
+
+.text-block-6 {
+  grid-column-start: 20;
+  grid-row-start: 111;
+  grid-column-end: 58;
+  z-index: 1;
+}
+
+.text-block-7 {
+  grid-column-start: 4;
+  grid-row-start: 139;
+  grid-column-end: 58;
+  z-index: 1;
+}
+
+.polygon-3 {
+  background-image: url(../images/yellow-poly.png);
+  width: 2642px;
+  height: 3190px;
+  grid-column-start: 1;
+  grid-row-start: 122;
+  grid-column-end: 58;
+  margin: -1150px;
+}

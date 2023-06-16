@@ -1,0 +1,127 @@
+.header {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #d6c2e8;
+  display: grid;
+  grid-auto-columns: 20px;
+  grid-auto-rows: 20px;
+  height: 850px;
+}
+
+.polygon-1 {
+  width: 1100px;
+  height: 1800px;
+  background-image: url(../images/purple-poly.png);
+  grid-row-start: 1;
+  grid-column-start: 14;
+  margin-top: -400px;
+}
+
+.polygon-2 {
+  width: 350px;
+  height: 350px;
+  grid-row-start: 17;
+  grid-column-start: 8;
+  z-index: 1;
+  background-color: #fed54d;
+  transform: rotate(-45.59deg);
+}
+
+.hh1 {
+  color: #fff;
+  font-size: 150px;
+  background-color: #9f94ee;
+  border-radius: 200px;
+  width: fit-content;
+  text-shadow: 0px 4px 4px rgba(38, 44, 101, 0.75);
+  font-family: "Katibeh", cursive;
+}
+
+.laurels {
+  filter: drop-shadow(0px 10px 4px rgba(255, 69, 60, 0.75));
+}
+
+.left-cut {
+  margin-left: -150px;
+  padding: 55px 80px 0 180px;
+}
+
+.developer {
+  grid-column-start: 30;
+  z-index: 4;
+  grid-row-start: 30;
+}
+
+.artist {
+  grid-column-start: 1;
+  grid-row-start: 7;
+  z-index: 2;
+}
+
+.right-cut {
+  margin-right: -150px;
+  padding: 55px 180px 0 80px;
+}
+
+.purple-benzi {
+  height: 800px;
+  width: auto;
+
+  grid-column-start: 13;
+  grid-row-start: 5;
+  z-index: 2;
+}
+
+.orange-benzi {
+  height: 800px;
+  width: auto;
+
+  grid-column-start: 15;
+  grid-row-start: 5;
+  z-index: 3;
+}
+
+.hh2 {
+  font-family: "Kodchasan", sans-serif;
+  font-size: 40px;
+  line-height: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+  z-index: 3;
+  color: #fff;
+}
+
+.tagline {
+  grid-column-start: 40;
+  grid-column-end: 58;
+  grid-row-start: 12;
+}
+
+.contact-button {
+  grid-column-start: 45;
+  grid-row-start: 2;
+}
+
+.button-text {
+  font-family: "Kodchasan", sans-serif;
+  font-size: 30px;
+  color: #262c65;
+  text-shadow: 0px 4px 4px rgba(38, 44, 101, 0.25);
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 100px;
+  border: none;
+  filter: drop-shadow(0px 10px 4px rgba(255, 33, 58, 0.75));
+  z-index: 3;
+  font-weight: 700;
+  width: 300px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-text:hover {
+  color: #fff;
+  background-color: rgba(255, 69, 60, 1);
+  filter: drop-shadow(0px 4px 4px rgba(255, 33, 58, 0.75));
+  transition: 0.3s;
+}
