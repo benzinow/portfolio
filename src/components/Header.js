@@ -17,7 +17,9 @@ function Header() {
   return (
     <div className="header">
       <div className="laurels developer">
-        <div className="hh1">Developer</div>
+        <h1 className="hh1" style={h1Styles}>
+          Developer
+        </h1>
       </div>
       <img
         className="purple-benzi"
@@ -31,7 +33,9 @@ function Header() {
       />
       <div className="polygon-2"></div>
       <div className="laurels artist">
-        <h1 className="hh1">Artist</h1>
+        <h1 className="hh1" style={h1Styles}>
+          Artist
+        </h1>
       </div>
 
       <div className="polygon-1"></div>
