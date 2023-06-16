@@ -9,9 +9,7 @@ function Header() {
   return (
     <div className="header">
       <div className="laurels developer">
-        <div className="right">
-          <h1 className="right-cut hh1">Developer</h1>
-        </div>
+        <div className="hh1">Developer</div>
       </div>
       <img
         className="purple-benzi"
@@ -25,7 +23,7 @@ function Header() {
       />
       <div className="polygon-2"></div>
       <div className="laurels artist">
-        <h1 className="left-cut hh1">Artist</h1>
+        <div className="left-cut hh1">Artist</div>
       </div>
 
       <div className="polygon-1"></div>

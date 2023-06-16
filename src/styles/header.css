@@ -31,37 +31,39 @@
 .hh1 {
   color: #fff;
   font-size: 150px;
-  background-color: #9f94ee;
-  border-radius: 200px;
-  width: fit-content;
   text-shadow: 0px 4px 4px rgba(38, 44, 101, 0.75);
   font-family: "Katibeh", cursive;
+  border: solid 2px blue;
+  height: 100px;
+  margin: 0 40px;
 }
 
 .laurels {
   filter: drop-shadow(0px 10px 4px rgba(255, 69, 60, 0.75));
+  background-color: #9f94ee;
+  border-radius: 200px;
 }
 
 .left-cut {
   margin-left: -150px;
-  padding: 55px 80px 0 180px;
 }
 
 .developer {
-  grid-column-start: 30;
+  grid-column-start: 33;
+  grid-column-end: 65;
   z-index: 4;
   grid-row-start: 30;
+  grid-row-end: 39;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: solid red 1px;
 }
 
 .artist {
   grid-column-start: 1;
   grid-row-start: 7;
   z-index: 2;
-}
-
-.right-cut {
-  margin-right: -150px;
-  padding: 55px 180px 0 80px;
 }
 
 .purple-benzi {
@@ -136,10 +138,11 @@
 
   .hh1 {
     font-size: 100px;
+    height: 70px;
   }
 
   .developer {
-    grid-column-start: 24;
+    grid-column-start: 26;
   }
 
   .purple-benzi {
@@ -199,21 +202,13 @@
 
   .hh1 {
     font-size: 80px;
-  }
-
-  .left-cut {
-    margin-left: -160px;
-    padding: 40px 40px 0 180px;
-  }
-
-  .right-cut {
-    margin-right: -150px;
-    padding: 40px 180px 0 45px;
+    height: 55px;
   }
 
   .developer {
-    grid-column-start: 15;
+    grid-column-start: 14;
     grid-row-start: 20;
+    grid-row-end: 25;
   }
 
   .purple-benzi {
@@ -263,21 +258,14 @@
 
   .hh1 {
     font-size: 40px;
-  }
-
-  .left-cut {
-    margin-left: -160px;
-    padding: 20px 30px 0 175px;
-  }
-
-  .right-cut {
-    margin-right: -150px;
-    padding: 20px 180px 0 35px;
+    height: 30px;
+    margin: 20px;
   }
 
   .developer {
-    grid-column-start: 7;
+    grid-column-start: 8;
     grid-row-start: 19;
+    grid-row-end: 22;
   }
 
   .artist {
