@@ -23,7 +23,7 @@ function Header() {
       />
       <div className="polygon-2"></div>
       <div className="laurels artist">
-        <div className="left-cut hh1">Artist</div>
+        <div className="hh1">Artist</div>
       </div>
 
       <div className="polygon-1"></div>

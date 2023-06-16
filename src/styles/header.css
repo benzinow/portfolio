@@ -44,10 +44,6 @@
   border-radius: 200px;
 }
 
-.left-cut {
-  margin-left: -150px;
-}
-
 .developer {
   grid-column-start: 33;
   grid-column-end: 65;
@@ -57,13 +53,18 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  border: solid red 1px;
 }
 
 .artist {
   grid-column-start: 1;
   grid-row-start: 7;
+  grid-column-end: 18;
+  grid-row-end: 16;
   z-index: 2;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-left: -100px;
 }
 
 .purple-benzi {
