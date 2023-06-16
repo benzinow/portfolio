@@ -6,20 +6,10 @@ import OrangeBenzi from "../images/orange-benzi.png";
 import Scroll from "./Scroll.js";
 
 function Header() {
-  // Check the user agent string to determine the operating system
-  const isMac = navigator.userAgent.indexOf("Mac") !== -1;
-
-  // Apply different CSS styles based on the operating system
-  const h1Styles = isMac
-    ? { margin: "0 40px" } // Apply Mac-specific styles
-    : { margin: "-50px 40px 40px 40px" }; // Apply PC-specific styles
-
   return (
     <div className="header">
       <div className="laurels developer">
-        <h1 className="hh1" style={h1Styles}>
-          Developer
-        </h1>
+        <h1 className="hh1">Developer</h1>
       </div>
       <img
         className="purple-benzi"
@@ -33,9 +23,7 @@ function Header() {
       />
       <div className="polygon-2"></div>
       <div className="laurels artist">
-        <h1 className="hh1" style={h1Styles}>
-          Artist
-        </h1>
+        <h1 className="hh1">Artist</h1>
       </div>
 
       <div className="polygon-1"></div>
