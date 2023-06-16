@@ -15,6 +15,7 @@
   grid-row-start: 5;
   grid-column-start: 1;
   grid-column-end: 60;
+  margin-bottom: 20px;
 }
 
 form {
