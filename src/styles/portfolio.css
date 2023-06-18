@@ -11,9 +11,9 @@
 }
 
 .hh3 {
-  font-family: "Katibeh";
+  font-family: "Lobster", "Oleo Script", cursive;
   text-align: center;
-  font-size: 180px;
+  font-size: 120px;
 }
 
 .project-header {
@@ -179,7 +179,7 @@ a {
   }
 
   .hh3 {
-    font-size: 120px;
+    font-size: 100px;
   }
 
   .project-header {
@@ -266,7 +266,7 @@ a {
 }
 @media (max-width: 900px) {
   .hh3 {
-    font-size: 80px;
+    font-size: 70px;
   }
 
   .portfolio-text {
@@ -371,7 +371,7 @@ a {
 }
 @media (max-width: 600px) {
   .hh3 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .portfolio {
