@@ -28,14 +28,16 @@
   transform: rotate(-45.59deg);
 }
 
-.hh1 {
+h1 {
   color: #fff;
   font-size: 150px;
   text-shadow: 0px 4px 4px rgba(38, 44, 101, 0.75);
-  font-family: "Katibeh", cursive;
+
   border: solid 2px blue;
   height: 100px;
   margin: 0 40px;
+  text-align: inherit;
+  overflow-anchor: top;
 }
 
 .laurels {
