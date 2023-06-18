@@ -82,18 +82,6 @@ function Portfolio() {
       </div>
       <div className="tool-belt">
         <div className="tool">
-          <img src={Html} className="tool-icon" alt="universal HTML icon" />
-          <p className="caption">HTML</p>
-        </div>
-        <div className="tool">
-          <img src={Css} className="tool-icon" alt="universal CSS icon" />
-          <p className="caption">CSS</p>
-        </div>
-        <div className="tool">
-          <img src={Javascript} className="tool-icon" alt="universal JS icon" />
-          <p className="caption">JS</p>
-        </div>
-        <div className="tool">
           <img
             src={ReactImage}
             className="tool-icon"
@@ -104,6 +92,19 @@ function Portfolio() {
         <div className="tool">
           <img src={GitImage} className="tool-icon" alt="universal Git logo" />
           <p className="caption">Git</p>
+        </div>
+
+        <div className="tool">
+          <img src={Javascript} className="tool-icon" alt="universal JS icon" />
+          <p className="caption">JS</p>
+        </div>
+        <div className="tool">
+          <img src={Html} className="tool-icon" alt="universal HTML icon" />
+          <p className="caption">HTML</p>
+        </div>
+        <div className="tool">
+          <img src={Css} className="tool-icon" alt="universal CSS icon" />
+          <p className="caption">CSS</p>
         </div>
         <div className="tool">
           <img src={Vscode} className="tool-icon" alt="universal Vscode logo" />

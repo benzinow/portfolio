@@ -253,6 +253,11 @@ a {
     grid-row-start: 109;
   }
 
+  .text-block-5 {
+    grid-row-start: 92;
+    grid-column-end: 44;
+  }
+
   .text-block-6 {
     grid-row-start: 109;
     grid-column-end: 44;
