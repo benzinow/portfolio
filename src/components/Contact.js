@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Scroll2 from "./Scroll-2";
+import Scroll from "./Scroll.js";
 import ThankYou from "../images/thank-you.jpg";
 
 function Contact() {
@@ -84,7 +84,7 @@ function Contact() {
         </div>
       )}
 
-      <Scroll2 />
+      <Scroll containerType="contact" />
     </div>
   );
 }

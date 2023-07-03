@@ -40,7 +40,7 @@ function Header() {
           <button className="button-text">Contact Benzi</button>
         </ScrollLink>
       </div>
-      <Scroll />
+      <Scroll containerType="header" />
     </div>
   );
 }

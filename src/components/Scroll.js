@@ -1,8 +1,13 @@
 import React from "react";
 
-function Scroll() {
+function Scroll(props) {
+  const { containerType } = props;
+  const className = `scroll-container${
+    containerType ? `-${containerType}` : ""
+  }`;
+
   return (
-    <div className="scroll-container">
+    <div className={className}>
       <div className="scroll-text prevent-select">
         <pre>
           import React from "react"; import PurpleBenzi from

@@ -101,14 +101,15 @@
   }
   .bio-text-3 {
     grid-column-end: 29;
+    grid-row-start: 36;
   }
   .bio-text-4 {
     grid-column-end: 29;
-    grid-row-start: 48;
+    grid-row-start: 49;
   }
   .bio-text-5 {
     grid-column-end: 29;
-    grid-row-start: 56;
+    grid-row-start: 57;
   }
 }
 @media (max-width: 600px) {
