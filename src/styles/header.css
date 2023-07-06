@@ -100,6 +100,58 @@ h1 {
   grid-row-start: 12;
 }
 
+.tagline:hover {
+  animation: revealShadows 5s forwards;
+}
+
+@keyframes revealShadows {
+  0% {
+    filter: drop-shadow(none);
+  }
+  5% {
+    filter: drop-shadow(2px -2px #ff453c);
+  }
+  10% {
+    filter: drop-shadow(2px -2px #ff453c) drop-shadow(4px -4px #ff13cd);
+  }
+  15% {
+    filter: drop-shadow(2px -2px #ff453c) drop-shadow(4px -4px #ff13cd)
+      drop-shadow(6px -6px #fe964a);
+  }
+  20% {
+    filter: drop-shadow(2px -2px #ff453c) drop-shadow(4px -4px #ff13cd)
+      drop-shadow(6px -6px #fe964a) drop-shadow(8px -8px #fed54d);
+  }
+  25% {
+    filter: drop-shadow(2px -2px #ff453c) drop-shadow(4px -4px #ff13cd)
+      drop-shadow(6px -6px #fe964a) drop-shadow(8px -8px #fed54d)
+      drop-shadow(10px -10px #aba0e6);
+  }
+  75% {
+    filter: drop-shadow(2px -2px #ff453c) drop-shadow(4px -4px #ff13cd)
+      drop-shadow(6px -6px #fe964a) drop-shadow(8px -8px #fed54d)
+      drop-shadow(10px -10px #aba0e6);
+  }
+  80% {
+    filter: drop-shadow(2px -2px #ff453c) drop-shadow(4px -4px #ff13cd)
+      drop-shadow(6px -6px #fe964a) drop-shadow(8px -8px #fed54d);
+  }
+  85% {
+    filter: drop-shadow(2px -2px #ff453c) drop-shadow(4px -4px #ff13cd)
+      drop-shadow(6px -6px #fe964a);
+  }
+  90% {
+    filter: drop-shadow(2px -2px #ff453c) drop-shadow(4px -4px #ff13cd);
+  }
+  95% {
+    filter: drop-shadow(2px -2px #ff453c);
+  }
+
+  100% {
+    filter: drop-shadow(none);
+  }
+}
+
 .contact-button {
   grid-column-start: 45;
   grid-row-start: 2;
