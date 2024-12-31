@@ -2,10 +2,11 @@
   background-image: url(../images/desert-vaporwave.png);
   background-size: cover;
   width: 1200px;
-  height: 1000px;
+  padding: 50px 0;
   margin: 0 auto;
   background-color: #9f94ee;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-auto-columns: 20px;
   color: #262c65;
   grid-auto-rows: 20px;
@@ -17,137 +18,24 @@
   grid-row-start: 5;
 }
 
-.bio-text-1 {
-  grid-column-start: 3;
-  grid-column-end: 29;
-  grid-row-start: 13;
-}
-
-.bio-text-2 {
-  grid-column-start: 3;
-  grid-column-end: 29;
-  grid-row-start: 27;
-}
-.bio-text-3 {
-  grid-column-start: 31;
-  grid-column-end: 58;
-  grid-row-start: 13;
-}
-.bio-text-4 {
-  grid-column-start: 31;
-  grid-column-end: 58;
-  grid-row-start: 27;
-}
-.bio-text-5 {
-  grid-column-start: 31;
-  grid-column-end: 58;
-  grid-row-start: 37;
+.bio-text {
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
 }
 
 @media (max-width: 1200px) {
   .bio {
     width: 900px;
-    height: 1150px;
-  }
-
-  .bio-header {
-    grid-column-end: 45;
-  }
-
-  .bio-text-1 {
-    grid-column-end: 43;
-    grid-row-start: 12;
-  }
-
-  .bio-text-2 {
-    grid-column-end: 43;
-    grid-row-start: 21;
-  }
-  .bio-text-3 {
-    grid-column-start: 3;
-    grid-column-end: 43;
-    grid-row-start: 34;
-  }
-  .bio-text-4 {
-    grid-column-start: 3;
-    grid-column-end: 43;
-    grid-row-start: 43;
-  }
-  .bio-text-5 {
-    grid-column-start: 3;
-    grid-column-end: 43;
-    grid-row-start: 50;
   }
 }
 @media (max-width: 900px) {
   .bio {
     width: 600px;
-    height: 1300px;
-  }
-
-  .bio-header {
-    grid-row-start: 4;
-    grid-column-end: 30;
-  }
-
-  .bio-text-1 {
-    grid-column-end: 29;
-    grid-row-start: 10;
-  }
-
-  .bio-text-2 {
-    grid-column-end: 29;
-    grid-row-start: 21;
-  }
-  .bio-text-3 {
-    grid-column-end: 29;
-    grid-row-start: 36;
-  }
-  .bio-text-4 {
-    grid-column-end: 29;
-    grid-row-start: 49;
-  }
-  .bio-text-5 {
-    grid-column-end: 29;
-    grid-row-start: 57;
   }
 }
 @media (max-width: 600px) {
   .bio {
     width: 300px;
-    height: 2050px;
-  }
-
-  .bio-header {
-    grid-column-end: 15;
-    grid-column-start: 2;
-    grid-row-start: 3;
-  }
-
-  .bio-text-1 {
-    grid-column-end: 15;
-    grid-column-start: 2;
-    grid-row-start: 6;
-  }
-
-  .bio-text-2 {
-    grid-column-end: 15;
-    grid-column-start: 2;
-    grid-row-start: 26;
-  }
-  .bio-text-3 {
-    grid-column-end: 15;
-    grid-column-start: 2;
-    grid-row-start: 55;
-  }
-  .bio-text-4 {
-    grid-column-end: 15;
-    grid-column-start: 2;
-    grid-row-start: 75;
-  }
-  .bio-text-5 {
-    grid-column-end: 15;
-    grid-column-start: 2;
-    grid-row-start: 88;
   }
 }

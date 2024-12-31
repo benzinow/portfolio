@@ -1,5 +1,7 @@
 import React from "react";
-import G3 from "../images/orange-g3.png";
+import G3orange from "../images/orange-g3.png";
+import snake from "../images/snake.png";
+import G3green from "../images/green-g3.png";
 import Ipad from "../images/orange-ipad.png";
 import Phone from "../images/orange-phone.png";
 import Html from "../images/html.svg";
@@ -17,172 +19,186 @@ import Sheets from "../images/sheets.svg";
 function Portfolio() {
   return (
     <div className="portfolio">
-      <div className="hh3 project-header">Most Recent Project</div>
-      <div className="project-link">
-        <a
-          href="https://positiveoutlookstherapy.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          positiveoutlookstherapy.com
-        </a>
-      </div>
-      <div className="desktop-box">
-        <img
-          src={G3}
-          className="g3"
-          alt="cartoonized apple imac g3 displaying a yellowe webpage featuring a mans face and the name Chris Young"
-        />
-        <p className="caption">Desktop</p>
-      </div>
-
-      <p className="text-block-1 portfolio-text">
-        I collaborated with hypnotherapist - Chris Young to transform his
-        business by creating a comprehensive website. The goal was to establish
-        an online presence, showcase his expertise, and generate client
-        bookings.
-      </p>
-      <div className="portfolio-text-block text-block-2">
-        <div className="hh4">Context and Challenge:</div>
-        <p className="portfolio-text">
-          Before the project, Chris relied solely on word-of-mouth marketing. We
-          identified the need to bring his business into the digital age and
-          create a website that reflected his personality and style. The
-          challenge was to design a site that conveyed trust and provided an
-          intuitive user experience.
-        </p>
-      </div>
-      <div className="portfolio-text-block text-block-3">
-        <div className="hh4">Process and Insight:</div>
-        <p className="portfolio-text">
-          I developed the website from scratch, including UI design, branding,
-          copywriting, and custom artwork. The site features a responsive design
-          that adapts to all screen sizes. Notably, it incorporates a stunning
-          7-layer custom artwork scroll effect, symbolizing the idea that "your
-          mind can move mountains."
-        </p>
-      </div>
-      <div className="tablet-box">
-        {" "}
-        <img
-          src={Ipad}
-          className="ipad"
-          alt="cartoonized apple ipad displaying a blue webpage featuring mountain ranges of palm springs"
-        />
-        <p className="caption">Tablet</p>
-      </div>
-
-      <div className="portfolio-text-block text-block-4">
-        <div className="hh4">Tools used:</div>
-        <p className="portfolio-text">
-          The process included HTML 5, CSS Grid, JavaScript, React, Git, APIs,
-          VS Code, Figma, OpenAI, Adobe Photoshop, Adobe Illustrator, and API
-          Spreadsheets.
-        </p>
-      </div>
-      <div className="tool-belt">
-        <div className="tool">
+      <div className="hh3 project-header">Projects</div>
+      <div className="portfolio-section-1">
+        <div className="desktop-box">
           <img
-            src={ReactImage}
-            className="tool-icon"
-            alt="universal React logo"
+            src={G3orange}
+            className="g3"
+            alt="cartoonized apple imac g3 displaying a yellowe webpage featuring a mans face and the name Chris Young"
           />
-          <p className="caption">React</p>
+          <p className="caption">Desktop</p>
         </div>
-        <div className="tool">
-          <img src={GitImage} className="tool-icon" alt="universal Git logo" />
-          <p className="caption">Git</p>
-        </div>
-
-        <div className="tool">
-          <img src={Javascript} className="tool-icon" alt="universal JS icon" />
-          <p className="caption">JS</p>
-        </div>
-        <div className="tool">
-          <img src={Html} className="tool-icon" alt="universal HTML icon" />
-          <p className="caption">HTML</p>
-        </div>
-        <div className="tool">
-          <img src={Css} className="tool-icon" alt="universal CSS icon" />
-          <p className="caption">CSS</p>
-        </div>
-        <div className="tool">
-          <img src={Vscode} className="tool-icon" alt="universal Vscode logo" />
-          <p className="caption">VS Code</p>
-        </div>
-        <div className="tool">
-          <img src={Figma} className="tool-icon" alt="universal Figma logo" />
-          <p className="caption">Figma</p>
-        </div>
-        <div className="tool">
-          <img src={Openai} className="tool-icon" alt="universal Openai logo" />
-          <p className="caption">Open AI</p>
-        </div>
-        <div className="tool">
-          <img
-            src={Photoshop}
-            className="tool-icon"
-            alt="universal Photoshop logo"
-          />
-          <p className="caption">Photoshop</p>
-        </div>
-        <div className="tool">
-          <img
-            src={Illustrator}
-            className="tool-icon"
-            alt="universal Illustrator logo"
-          />
-          <p className="caption">Illustrator</p>
-        </div>
-        <div className="tool">
-          <img
-            src={Sheets}
-            className="tool-icon"
-            alt="universal Google Sheets icon"
-          />
-          <p className="caption">API SS</p>
+        <div>
+          <div className="project-link">
+            <a
+              href="https://positiveoutlookstherapy.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              positiveoutlookstherapy.com
+            </a>
+          </div>
+          <p className="text-block-1 portfolio-text">
+            I collaborated with hypnotherapist - Chris Young to transform his
+            business by creating a comprehensive website. The goal was to
+            establish an online presence, showcase his expertise, and generate
+            client bookings.
+          </p>
         </div>
       </div>
-      <div className="portfolio-text-block text-block-5">
-        <div className="hh4">Solution:</div>
-        <p className="portfolio-text">
-          The website successfully reflects Chris's individuality, expertise,
-          and style. It provides visitors a modern yet timeless experience and
-          an intuitive user interface. The custom artwork scroll effect adds a
-          unique touch, captivating users and fostering a sense of calm and
-          trust. The website encourages visitors to book hypnotherapy sessions
-          by building trust and showcasing Chris's capabilities.
+      <div className="portfolio-section-2">
+        <div className="portfolio-text-block text-block-3">
+          <p className="portfolio-text">
+            I developed the website from scratch, including UI design, branding,
+            copywriting, and custom artwork. The site features a responsive
+            design that adapts to all screen sizes. Notably, it incorporates a
+            stunning 7-layer custom artwork scroll effect, symbolizing the idea
+            that "your mind can move mountains."
+          </p>
+          <p className="portfolio-text">Tools used:</p>
+          <div className="tool-belt">
+            <div className="tool">
+              <img
+                src={ReactImage}
+                className="tool-icon"
+                alt="universal React logo"
+              />
+              <p className="caption">React</p>
+            </div>
+            <div className="tool">
+              <img
+                src={GitImage}
+                className="tool-icon"
+                alt="universal Git logo"
+              />
+              <p className="caption">Git</p>
+            </div>
+
+            <div className="tool">
+              <img
+                src={Javascript}
+                className="tool-icon"
+                alt="universal JS icon"
+              />
+              <p className="caption">JS</p>
+            </div>
+            <div className="tool">
+              <img src={Html} className="tool-icon" alt="universal HTML icon" />
+              <p className="caption">HTML</p>
+            </div>
+            <div className="tool">
+              <img src={Css} className="tool-icon" alt="universal CSS icon" />
+              <p className="caption">CSS</p>
+            </div>
+            <div className="tool">
+              <img
+                src={Vscode}
+                className="tool-icon"
+                alt="universal Vscode logo"
+              />
+              <p className="caption">VS Code</p>
+            </div>
+            <div className="tool">
+              <img
+                src={Figma}
+                className="tool-icon"
+                alt="universal Figma logo"
+              />
+              <p className="caption">Figma</p>
+            </div>
+            <div className="tool">
+              <img
+                src={Openai}
+                className="tool-icon"
+                alt="universal Openai logo"
+              />
+              <p className="caption">Open AI</p>
+            </div>
+            <div className="tool">
+              <img
+                src={Photoshop}
+                className="tool-icon"
+                alt="universal Photoshop logo"
+              />
+              <p className="caption">Photoshop</p>
+            </div>
+            <div className="tool">
+              <img
+                src={Illustrator}
+                className="tool-icon"
+                alt="universal Illustrator logo"
+              />
+              <p className="caption">Illustrator</p>
+            </div>
+            <div className="tool">
+              <img
+                src={Sheets}
+                className="tool-icon"
+                alt="universal Google Sheets icon"
+              />
+              <p className="caption">API SS</p>
+            </div>
+          </div>
+        </div>
+        <div className="tablet-box">
+          {" "}
+          <img
+            src={Ipad}
+            className="ipad"
+            alt="cartoonized apple ipad displaying a blue webpage featuring mountain ranges of palm springs"
+          />
+          <p className="caption">Tablet</p>
+        </div>
+      </div>
+      <div className="portfolio-section-3">
+        <div className="desktop-box">
+          <img
+            src={G3green}
+            className="g3"
+            alt="cartoonized apple imac g3 displaying a yellowe webpage featuring a mans face and the name Chris Young"
+          />
+          <p className="caption">Desktop</p>
+
+          <img
+            src={snake}
+            className="snake"
+            alt="cartoonized apple imac g3 displaying a yellowe webpage featuring a mans face and the name Chris Young"
+          />
+        </div>
+        <div>
+          <div className="project-link">
+            <a href="https://happybasins.com/" target="_blank" rel="noreferrer">
+              happybasins.com
+            </a>
+          </div>
+          <p className="text-block-1 portfolio-text">
+            Herpetologist and Educator - Amy Powell, has been a valued client
+            for many years. Over the course of our collaboration, I’ve created
+            posters, t-shirts, and intricate custom artwork to support her work
+            and vision. When Amy was preparing for her debut on a podcast, she
+            recognized the importance of having a professional website to
+            connect with her audience. This project required quick turnaround,
+            and I successfully delivered a responsive, functional, fun site
+            under tight deadlines, ensuring she was ready to make her mark.
+          </p>
+        </div>
+      </div>
+      <div className="portfolio-section-4">
+        <div className="project-link">Most recent endeavor:</div>
+        <p className=" portfolio-text">
+          Starting in 2023, I’ve embraced the opportunity to work in a corporate
+          setting, where I’ve gained invaluable experience with larger, more
+          complex codebases. This role allowed me to engage with backend
+          development, explore advanced CSS libraries, and implement atomic
+          design principles to build scalable, maintainable systems. Along the
+          way, I’ve added powerful new tools to my professional toolbelt, giving
+          me a more holistic view of software development. I’m grateful for the
+          growth and perspective this experience has provided, and I’m excited
+          to channel these skills into more dynamic and creative endeavors where
+          I can make a direct impact.
         </p>
       </div>
-      <div className="phone-box">
-        {" "}
-        <img
-          src={Phone}
-          className="phone"
-          alt="cartoonized pixel phone displaying the FAQ page of the positive outlooks website but its intentionally too tiny to be readable"
-        />
-        <p className="caption">Mobile</p>
-      </div>
-
-      <div className="portfolio-text-block text-block-6">
-        <div className="hh4">Results:</div>
-        <p className="portfolio-text">
-          Since the website's launch, Chris has experienced a significant
-          increase in online visibility and client inquiries. The modern design
-          and intuitive user experience have helped establish trust and
-          credibility with visitors. Incorporating captivating visuals and
-          engaging content has led to a higher conversion rate and increased
-          bookings. Client feedback has been overwhelmingly positive,
-          highlighting the website's effectiveness in promoting Chris's
-          hypnotherapy business.
-        </p>
-      </div>
-      <p className="text-block-7 portfolio-text">
-        By showcasing Chris's expertise and providing an engaging user
-        experience, the website has successfully brought his business into the
-        digital age and positioned him as a trusted hypnotherapist within his
-        target audience.
-      </p>
 
       <div className="polygon-3"></div>
     </div>
