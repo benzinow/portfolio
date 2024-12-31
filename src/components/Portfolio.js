@@ -3,7 +3,6 @@ import G3orange from "../images/orange-g3.png";
 import snake from "../images/snake.png";
 import G3green from "../images/green-g3.png";
 import Ipad from "../images/orange-ipad.png";
-import Phone from "../images/orange-phone.png";
 import Html from "../images/html.svg";
 import Css from "../images/css.svg";
 import Javascript from "../images/java-script.svg";

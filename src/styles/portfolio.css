@@ -299,9 +299,6 @@ a {
     width: 400px;
     gap: 30px;
   }
-
-  .tool-icon {
-  }
 }
 @media (max-width: 600px) {
   .hh3 {
